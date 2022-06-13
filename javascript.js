@@ -1,0 +1,41 @@
+let characters = [
+    "Tyrion Lannister",
+    "Tywinn Lannister",
+    "Daenerys Targaryen",
+    "Arya Stark",
+    "Cersei Lannister",
+    "Jon Snow",
+    "Sansa Stark",
+    "Tyrion Lannister",
+    "Bran Stark",
+    "Samwell Tarly",
+    "Theon Greyjoy",
+    "Eddard Stark",
+    "Jaime Lannister",
+    "Jorah Mormont",
+    "Birenne of Tarth",
+    "Catelyn Stark",
+    "Robb Stark",
+    "Lord Varys",
+    "Rickon Stark",
+    "Joffrey `Baratheon`",
+    "Robert Baratheon",
+    "Sandor Clegane aka the Hound",
+    "Petyr Baelish",
+    "Gregor Clegane aka the Mountain",
+    "Loras Tyrell",
+    "Olenna Tyrell",
+    "Oberyn Martell",
+    "Euron Grey",
+    "Khal Drogo",
+    "Melisandre",
+    "Bronn",
+    "Gendry",
+    "Syrio Forel",
+    "Hodor",
+]
+
+function newCharacter() {
+    let randomNumber = Math.floor(Math.random() * (characters.length));  
+    document.getElementById("characterDisplay").innerHTML = characters[randomNumber]; 
+}
